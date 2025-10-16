@@ -1,4 +1,4 @@
-#  Dark Web Investigations: Tools, Techniques, and Challenges
+# Dark Web Investigations: Tools, Techniques, and Challenges
 
 ## Table of Contents
 - [Introduction](#introduction)  
@@ -24,6 +24,8 @@ Investigating criminal activity on the Dark Web is a critical part of **Cyber Cr
 
 This article explores the **tools, techniques, and challenges** associated with Dark Web investigations, providing insights into the intersection of **forensics, cybersecurity, and law enforcement**.
 
+![Dark Web Concept](images/darkweb.jpg)
+
 ---
 
 ## Understanding the Dark Web
@@ -35,6 +37,8 @@ The internet can be visualized as three layers:
 3. **Dark Web:** A small but influential part of the Deep Web accessible only through specialized software like **Tor (The Onion Router)**.  
 
 The **Dark Web uses encryption and routing mechanisms** to conceal the identities and locations of users and websites. While it has legitimate uses (such as secure communication and whistleblowing), it also facilitates **illegal trading, cyber fraud, and data breaches**.
+
+![Internet Layers Diagram](images/layers.jpg)
 
 ---
 
@@ -56,6 +60,7 @@ These components collectively form a **decentralized and anonymous environment**
 Dark Web investigators rely on a combination of open-source and enterprise-grade tools for monitoring, evidence collection, and analysis.
 
 ### Common Tools (2025)
+
 1. **Tor Browser and Tails OS** – Provide secure and anonymous access to hidden services.  
 2. **Maltego** – Visual link analysis to map data relationships across online identities.  
 3. **OWASP TorBot** – A Python-based crawler for `.onion` sites that indexes hidden services [web:42].  
@@ -64,9 +69,9 @@ Dark Web investigators rely on a combination of open-source and enterprise-grade
 6. **Chainalysis / CipherTrace** – Blockchain forensics to trace illicit cryptocurrency flows [web:39][web:41].  
 7. **MISP (Malware Information Sharing Platform)** – Collects and shares dark web threat intelligence [web:42].  
 8. **ZeroFox and Recorded Future** – Use AI and threat intelligence for dark web monitoring and alerting [web:43].  
-9. **Autopsy / FTK / EnCase** – Forensics suites for examining captured data and preserving chain of custody.  
+9. **Autopsy / FTK / EnCase** – Forensics suites for examining captured data and preserving chain of custody.
 
-These tools form the foundation of modern dark web surveillance and forensic workflows.
+![Cybersecurity Tools](images/tools.png)
 
 ---
 
@@ -74,7 +79,8 @@ These tools form the foundation of modern dark web surveillance and forensic wor
 
 Dark Web investigations combine **digital forensics**, **threat intelligence**, and **ethical cybersecurity practices**. Investigators require robust operational frameworks to avoid exposure and preserve data integrity.
 
-### Common Techniques:
+### Common Techniques
+
 - **Undercover Infiltration:** Creating covert identities to observe criminal activities.  
 - **OSINT (Open Source Intelligence):** Gathering insights from accessible online data.  
 - **Blockchain Analysis:** Tracing cryptocurrency transfers between exchanges and wallets.  
@@ -82,8 +88,6 @@ Dark Web investigations combine **digital forensics**, **threat intelligence**, 
 - **Evidence Imaging:** Capturing full forensic snapshots for legal admissibility.  
 
 ---
-
-
 
 ### Digital Evidence Collection Workflow
 
@@ -113,10 +117,6 @@ Dark Web investigations combine **digital forensics**, **threat intelligence**, 
 
 9. **Report Generation and Legal Submission**  
    Final technical and legal reports are prepared and submitted to appropriate authorities.
-
-
-
-This process ensures that the investigation remains systematic, lawful, and traceable throughout each stage.
 
 ---
 
@@ -151,6 +151,7 @@ Despite technological progress, investigators face numerous persistent obstacles
 Digital forensics ensures that evidence gathered from the Dark Web is **authentic**, **preserved**, and **legally admissible**.
 
 Key principles include:
+
 - **Chain of Custody:** Every interaction with evidence is logged.  
 - **Data Integrity:** Cryptographic hashing (SHA-256, MD5) ensures authenticity.  
 - **Compliance:** Investigations adhere to frameworks such as the **Budapest Convention on Cybercrime (2001)** and national cyber laws.  
@@ -166,8 +167,6 @@ By maintaining forensic rigor, investigators bridge the gap between intelligence
 2. **AlphaBay (2017):** Global joint FBI–Europol operation uncovered through cryptocurrency forensics and exploit analysis.  
 3. **Operation Onymous (2014):** Coordinated Europol effort that seized over 400 onion domains across multiple servers.  
 4. **Hansa Market (2017):** Dutch National Police covertly took control of the marketplace to track illegal transactions in real time.  
-
-These landmark cases highlight how international collaboration, blockchain analysis, and forensics combine to counter dark web crime.
 
 ---
 
@@ -193,6 +192,4 @@ Continuous skill development through platforms such as **TryHackMe’s Cybersecu
 - CloudSEK. *Future of Dark Web Monitoring – Trends to Watch in 2025*, 2025.  
 - Brandefense. *Top Open Source Intelligence (OSINT) Tools for the Dark Web*, 2025.  
 - Europol & FBI. *Operation Onymous Technical Report*, 2017.  
-- Chainalysis. *Crypto Crime and Blockchain Forensics Report*, 2023.  
-
----
+- Chainalysis. *Crypto Crime and Blockchain Forensics Report*, 2023.
